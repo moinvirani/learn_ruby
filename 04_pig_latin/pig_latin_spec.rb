@@ -19,7 +19,7 @@ describe "#translate" do
   end
 
   it "translates a word beginning with two consonants" do
-    s = translate("cherry")
+    s = translate("cherry")  
     s.should == "errychay"
   end
 
